@@ -49,6 +49,10 @@ Stable JSON shapes are owned by API Resources. Clients rely on:
 
 See `laravel-api.md` for routes and status codes.
 
+## Docker demo
+
+Custom Compose stack (not Sail): one `app` service, SQLite volume, Vite assets baked at image build. Entrypoint migrates, seeds when empty, then Apache serves `public/`.
+
 ## Server-state vs form-state
 
 | Concern | Owner |

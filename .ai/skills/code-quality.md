@@ -19,7 +19,10 @@
 npm run build    # production Vite assets
 composer validate --strict
 composer audit
+docker compose up --build -d   # demo image at http://localhost:8080
 ```
+
+Docker: multi-stage `Dockerfile` (Composer + Node Vite build + `php:8.4-apache`), `docker-compose.yml`, SQLite volume `lexorank-sqlite`. Machine-local MCP paths stay out of the image via `.dockerignore`.
 
 ## Prohibited shortcuts
 

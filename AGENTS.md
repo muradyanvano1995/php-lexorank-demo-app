@@ -58,6 +58,7 @@ composer install
 npm install
 php artisan migrate:fresh --seed
 composer run dev          # or: php artisan serve + npm run dev
+docker compose up --build -d   # demo at http://localhost:8080
 php artisan test --compact
 npm run test
 npm run build

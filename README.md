@@ -46,6 +46,23 @@ Verified on **Laravel Framework 13.29.0** / **PHP 8.4.24**.
 
 ## Installation
 
+### Docker (recommended for a quick look)
+
+```bash
+docker compose up --build -d
+```
+
+Open **http://localhost:8080**. First start migrates SQLite, seeds the demo board, and serves the SPA via Apache.
+
+```bash
+docker compose down          # stop
+docker compose down -v       # stop and wipe the SQLite volume
+```
+
+Optional env overrides: `APP_PORT`, `APP_URL` (defaults `8080` / `http://localhost:8080`).
+
+### Local without Docker
+
 ```bash
 composer install
 npm install
@@ -124,11 +141,12 @@ npm run build
 
 | Issue | Fix |
 | --- | --- |
-| Empty board | `php artisan migrate:fresh --seed` |
+| Empty board | `php artisan migrate:fresh --seed` (or `docker compose down -v && docker compose up --build -d`) |
 | Vite assets missing | `npm run build` or `npm run dev` |
 | 409 on move | Dense ranks — run column rebalance from Diagnostics |
 | Form 422 | Check Form Request rules; snake_case keys map to camelCase fields |
 | Stale agent docs | Update `.ai/skills` with the code change |
+| Docker port in use | `APP_PORT=8081 docker compose up --build -d` |
 
 ## Links
 
