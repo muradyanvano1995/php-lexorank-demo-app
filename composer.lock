@@ -2134,16 +2134,16 @@
         },
         {
             "name": "muradyanvano/php-lexorank",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/muradyanvano1995/php-lexorank.git",
-                "reference": "a35c4340b3d2fe54002634d9ceb4afe615c0fe7b"
+                "reference": "c507036c000fa7933dfcd386865dc8fac2d2fa80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/muradyanvano1995/php-lexorank/zipball/a35c4340b3d2fe54002634d9ceb4afe615c0fe7b",
-                "reference": "a35c4340b3d2fe54002634d9ceb4afe615c0fe7b",
+                "url": "https://api.github.com/repos/muradyanvano1995/php-lexorank/zipball/c507036c000fa7933dfcd386865dc8fac2d2fa80",
+                "reference": "c507036c000fa7933dfcd386865dc8fac2d2fa80",
                 "shasum": ""
             },
             "require": {
@@ -2203,7 +2203,7 @@
                 "issues": "https://github.com/muradyanvano1995/php-lexorank/issues",
                 "source": "https://github.com/muradyanvano1995/php-lexorank"
             },
-            "time": "2026-08-29T19:01:53+00:00"
+            "time": "2026-08-30T08:10:30+00:00"
         },
         {
             "name": "nesbot/carbon",

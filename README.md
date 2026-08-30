@@ -4,7 +4,7 @@ Production-quality **Laravel 13** demo for **[`muradyanvano/php-lexorank`](https
 
 | | |
 | --- | --- |
-| **Package** | [`muradyanvano/php-lexorank`](https://packagist.org/packages/muradyanvano/php-lexorank) **v0.1.1** |
+| **Package** | [`muradyanvano/php-lexorank`](https://packagist.org/packages/muradyanvano/php-lexorank) **v0.1.2** |
 | **Source** | https://github.com/muradyanvano1995/php-lexorank |
 | **Stack** | Laravel 13 · PHP 8.4 · React 19 SPA · SQLite |
 
@@ -33,7 +33,9 @@ Agent instructions for contributors: [`AGENTS.md`](AGENTS.md) and [`.ai/`](.ai/)
 
 Verified on **Laravel Framework 13.29.0** / **PHP 8.4.24**.
 
-`muradyanvano/php-lexorank` v0.1.1 auto-discovers its service provider, registers `LexoRankService` + `Rebalancer` singletons, and works with `LexoRankCast` / `HasLexoRank` on Eloquent models in this app.
+`muradyanvano/php-lexorank` **v0.1.2** auto-discovers its service provider, registers `LexoRankService` + `Rebalancer` singletons, and works with `LexoRankCast` / `HasLexoRank` on Eloquent models in this app.
+
+v0.1.2 is a **documentation-only** package release — LexoRank algorithms, rank format, and demo API behavior are unchanged from v0.1.1. Laravel 13 in this demo does not automatically redefine the package’s official support matrix.
 
 ## LexoRank integration
 

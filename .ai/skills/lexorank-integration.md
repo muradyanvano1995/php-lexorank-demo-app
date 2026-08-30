@@ -3,7 +3,8 @@
 ## Installed version
 
 - Packagist: `muradyanvano/php-lexorank`
-- Exact version: **v0.1.1** (verify with `composer show muradyanvano/php-lexorank`)
+- Exact version: **v0.1.2** (verify with `composer show muradyanvano/php-lexorank`)
+- v0.1.2 is documentation-only in the package; demo rank math and API behavior match v0.1.1
 
 ## Laravel wiring
 
